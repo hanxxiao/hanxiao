@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/shopcart.css">
+</head>
+<body>
+    <nav class=" navbar  fixed-top navnav">
+        <div class="logo">
+            <img src="./images/icons/logo-black.png" alt="">
+        </div>
+        <div class="navbottom clearfixed">
+            <ul class="navbottom-list">
+                <li class="dropdown"><a href="./index.html" class="nav-link dropdown-toggle " data-toggle="dropdown" >HOME</a>
+                    <div class="dropdown-menu dropdownbt">
+                        <a href="#" class="dropdown-item">豪华沙发组合专栏 <span style="padding-left: 5px"> > </span></a>
+                        <a href="#" class="dropdown-item">时尚居家吊灯系列 <span style="padding-left:5px"> > </span></a>
+                        <a href="#" class="dropdown-item">轻奢几何边几方桌 <span style="padding-left:5px"> > </span></a>
+                        <a href="./more.html" class="dropdown-item">更多 <span style="padding-left: 89px;"> > </span></a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">SHOP</a>
+                    <div class="dropdown-menu">
+                        <a href="./total.html" class="dropdown-item">店铺总览 <span style="padding-left: 30px"> > </span></a>
+                        <a href="./wish.html" class="dropdown-item">愿望清单 <span style="padding-left: 30px"> > </span></a>
+                        <a href="./shopping cart.html" class="dropdown-item">我的购物车 <span style="padding-left: 15px"> > </span></a>
+                        <a href="#" class="dropdown-item">我的账户 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">商品结算 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">订单跟踪 <span style="padding-left: 30px"> > </span></a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">BLOG</a>
+                    <div class="dropdown-menu">
+                        <a href="./details.html" class="dropdown-item">热门推荐 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">搭配指南 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">红人日记 <span style="padding-left: 30px"> > </span></a>
+
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">PORTFOLIO</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">网红周边 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">配件摆设 <span style="padding-left: 30px"> > </span></a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">CONTANT US</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">售后服务 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">反馈中心 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">了解更多 <span style="padding-left: 30px"> > </span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navright">
+
+            <img src="./images/icons/header-icon-1.png" class="img" data-toggle="modal" data-target="#exampleModal"alt="">
+            <img src="./images/icons/login1.jpg" alt="" width="38px" height="38px" style="opacity: 0.60;">
+            <img src="./images/icons/header-icon-2.png" alt="">
+            <img src="./images/icons/header-icon-3.png" alt="">
+        </div>
+    </nav>  
+
+    <div class="shopcart-top">
+        <div class="topimg">
+             <img src="./images/shop-bc.jpg" alt="" width="1519px" >  
+         <div class="shop-word"> 
+              <h2>Shop</h2>
+              <br>
+             <a href="./index.html">主页</a> <span>/</span>
+             <a href="./count">我的账户</a>
+         </div>
+       </div> 
+    </div>
+    <div class="cart">
+    <table id="data">
+		<thead>
+			<tr>
+                <th>商品名称</th>
+                <th></th>
+				<th>单价</th>
+				<th>数量</th>
+				<th>小计</th>
+			</tr>
+		</thead>
+		<tbody class="tbody">
+			<tr>
+                <td>可爱小矮凳</td>
+				<td><img src="./images/checkout-1.jpg" alt="" width="100px" height="100px"></td>
+                <td>&yen;46</td>
+				<td>
+					<button class="num" onclick="calc(this)">-</button>
+					<span class="n">1</span>
+					<button class="num" onclick="calc(this)">+</button>
+				</td>
+				<td>&yen;46</td>
+			</tr>
+			<tr>
+                <td>环保餐盘组合</td>
+				<td><img src="./images/checkout-2.jpg"" alt="" width="100px" height="100px"></td>
+                <td>&yen;54</td>
+				<td>
+					<button class="num" onclick="calc(this)">-</button>
+					<span class="n">1</span>
+					<button class="num" onclick="calc(this)">+</button>
+				</td>
+				<td>&yen;54</td>
+			</tr>
+            <tr>
+                <td>几何铁艺圆桌</td>
+				<td><img src="./images/hp-5-items-2-1.jpg" alt="" width="100px" height="100px"></td>
+                <td>&yen;94</td>
+				<td>
+					<button  class="num" onclick="calc(this)">-</button>
+					<span class="n">1</span>
+					<button class="num"onclick="calc(this)">+</button>
+				</td>
+				<td>&yen;94</td>
+            </tr>
+            <tr>
+                <td>简约壁挂灯</td>
+				<td><img src="./images/shop-single-v2-1.jpg" alt="" width="100px" height="100px"></td>
+                <td>&yen;75</td>
+				<td>
+					<button  class="num" onclick="calc(this)">-</button>
+					<span class="n">1</span>
+					<button class="num" onclick="calc(this)">+</button>
+				</td>
+				<td>&yen;75</td>
+			</tr>
+		</tbody>
+		<tfoot class="tfoot">
+			<tr>
+                <td colspan="4" >Total: &nbsp;</td>
+                <td >&yen;xxx</td>
+            </tr>
+            <tr>
+                <td colspan="5" style="  border-radius:  20px ;">
+                    <button type="button" class="btn btn-outline-danger" style="margin-right: 100px;">使用购物券</button>
+                     
+                    <button type="button" class="btn btn-outline-danger">更新购物车</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <div class="check">
+        <button type="button" class="btn btn-outline-secondary">进入结算-></button>
+    </div>
+    <div style="clear: both;"></div>
+
+</div>
+<div class="footer" style="width: 100%; margin-bottom: 0;">
+    <div class="footer-container " style="padding-top: 50px; padding-bottom: 60px;">   
+        <div class="footer-part">
+            <div class="part-first">
+                <img src="./images/icons/logo-white.png" alt="" width="100px" height="24px" >
+                <p style="color: #fff; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+              <span class="footer-icon icon-facebook"></span>
+              <span class="footer-icon icon-twitter"></span>
+              <span class="footer-icon icon-tumblr"></span>
+              <span class="footer-icon icon-camera"></span>
+              </div>
+        </div>
+        <div class="footer-part">
+          <div class="part-first">
+              <h3 class="footer-c">Contact</h3>
+              <br>
+              <p class="footer-content"><span class="icon-location2">&nbsp;华兴大街133号</span></p>
+           
+               <p class="footer-content"><span class="icon-phone"> &nbsp;+(156)1800-366-6666</span></p>
+             
+              <p class="footer-content"><span class=" icon-mail">&nbsp;邮箱地址</span></p> 
+             
+              <p class="footer-content"><span class="icon-dribbble">&nbsp;www.novas.com</span></p> 
+            </div>
+        </div>
+        <div class="footer-part">   
+      <div class="part-first">
+          <h3 class="footer-c">Profile</h3>
+               <br>
+              <p class="footer-content"><span class="icon-user">&nbsp;我的账户</span></p>
+           
+               <p class="footer-content"><span class="icon-cart"> &nbsp;商品结算</span></p>
+             
+              <p class="footer-content"><span class=" icon-eye">&nbsp;订单跟踪</span></p> 
+             
+              <p class="footer-content"><span class="icon-bubbles4">&nbsp;帮助&反馈</span></p> 
+        </div>
+      </div>
+        <div class="footer-part footer-last">  
+             <div class="part-first">
+               <h3 class="footer-c">Newsletter</h3>
+               <br>
+               <p class="footer-content"> 订阅最新活动信息</p>
+               <div class="footer-inp">
+                   <input type="text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Your e-mail...">
+                    <span class="icon-compass"></span>
+              </div>
+               <br>
+               <p class="footer-content">@ 2019 Novas. Get The Template</p>
+        </div>
+      </div>
+</div>
+</div>
+    <script src="./js/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+   <script src="./js/shoppingcart.js"></script>
+
+</body>
+</html>

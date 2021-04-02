@@ -1,0 +1,77 @@
+.shopcart-top{
+    width:1200px;
+   padding-top: 60px;
+   margin-bottom: 20px;
+   box-sizing: border-box;
+}
+.shop-word h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+.topimg{
+    position: relative;
+}
+.shop-word{
+    position:absolute ;
+    top: 70px;
+    left: 300px;
+}
+.shop-word a{
+    text-decoration: none;
+    color: grey;
+}
+.cart{
+    width: 1200px;
+   margin: 0 auto;
+}
+#data {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+ #data thead,th{
+    width: 250px;
+    height: 60px;
+    background-color: rgb(197, 87, 105);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;  
+}
+thead,th:first-child{
+    border-radius:  20px  0  0 0;
+    border: none;
+}
+thead,th:last-child{
+    border-radius:  0  20px 0 0;
+    border: none;
+}
+td,th {
+    border: 1px solid rgba(141, 136, 136, 0.411);
+}
+
+td[colspan="4"] {
+    text-align: right;
+}
+.tfoot tr td{
+    height: 70px;
+}
+.num{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(252, 78, 87, 0.473);
+    background-color: #fff;
+    border-radius: 10px;
+    outline: none;
+}
+.n{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgba(252, 78, 87, 0.473);
+    font-size: 24px;
+    font-weight: 400;
+}
+.check{
+    float: right;
+    margin-top: 20px;
+}

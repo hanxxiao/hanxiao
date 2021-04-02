@@ -1,0 +1,55 @@
+ .icon{display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+   top: -12px;
+   cursor: pointer;
+   
+}
+.tag-sale{
+    position: absolute;
+    top: 12px;
+    z-index: 9;  
+}
+.onsale{
+    padding: 4px 8px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: pink;
+   
+}
+.onsale:hover{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(247, 172, 185);
+    cursor: pointer;
+}
+.onnew{
+    padding: 4px 8px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(117, 188, 247);
+   
+}
+.onnew:hover{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(63, 136, 247);
+    cursor: pointer;
+}
+.onnull{
+    padding: 4px 8px;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+}
+.onnull:hover{
+    text-decoration: none;
+    color: #fff;
+}

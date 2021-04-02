@@ -1,0 +1,61 @@
+.counter{
+    width: 1400px;
+    margin:60px 100px  130px;
+    position: relative;
+}
+.count-word{
+   position:absolute ;
+   top: 35px;
+   right: 600px;
+}
+.count-p{
+    margin-right: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    color: rgb(78, 78, 78);
+}
+.count-h{
+    color: rgb(73, 72, 72);
+}
+.count-heng{
+    height: 10px;
+    width: 60px;
+    border-bottom: 4px solid red;
+    text-align: center;
+    margin-left: 130px;
+}
+#clock{
+   position: absolute;
+   top: 30%;
+   right: 34%;
+}
+#tiles span{
+    font-size: 60px;
+    padding: 0;
+    padding-right: 70px;
+    margin: 0;
+
+}
+.labels{
+    color: grey;
+    font-size: 30px;
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.labels li{
+    float: left;
+    padding-right: 70px;
+}
+.count-btn{
+    position: absolute;
+    top: 70%;
+    right:50%;
+}
+.count-img{
+    position: absolute;
+    top: 16%;
+    right:10%; 
+}

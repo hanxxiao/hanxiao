@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+    <nav class=" navbar  fixed-top navnav">
+        <div class="logo">
+            <img src="./images/icons/logo-black.png" alt="">
+        </div>
+        <div class="navbottom clearfixed">
+            <ul class="navbottom-list">
+                <li class="dropdown"><a class="nav-link dropdown-toggle " data-toggle="dropdown" href="./index.html">HOME</a>
+                    <div class="dropdown-menu dropdownbt">
+                        <a href="#" class="dropdown-item">豪华沙发组合专栏 <span style="padding-left: 5px"> > </span></a>
+                        <a href="#" class="dropdown-item">时尚居家吊灯系列 <span style="padding-left:5px"> > </span></a>
+                        <a href="#" class="dropdown-item">轻奢几何边几方桌 <span style="padding-left:5px"> > </span></a>
+                        <a href="./more.html" class="dropdown-item">更多 <span style="padding-left: 89px;"> > </span></a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">SHOP</a>
+                    <div class="dropdown-menu">
+                        <a href="./total.html" class="dropdown-item">店铺总览 <span style="padding-left: 30px"> > </span></a>
+                        <a href="./wish.html" class="dropdown-item">愿望清单 <span style="padding-left: 30px"> > </span></a>
+                        <a href="./shopping cart.html" class="dropdown-item">我的购物车 <span style="padding-left: 15px"> > </span></a>
+                        <a href="#" class="dropdown-item">我的账户 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">商品结算 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">订单跟踪 <span style="padding-left: 30px"> > </span></a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">BLOG</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">热门推荐 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">搭配指南 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">红人日记 <span style="padding-left: 30px"> > </span></a>
+
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">PORTFOLIO</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">网红周边 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">配件摆设 <span style="padding-left: 30px"> > </span></a>
+                    </div>
+                </li>
+                <li class="dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">CONTANT US</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">售后服务 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">反馈中心 <span style="padding-left: 30px"> > </span></a>
+                        <a href="#" class="dropdown-item">了解更多 <span style="padding-left: 30px"> > </span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navright">
+
+            <img src="./images/icons/header-icon-1.png" class="img" data-toggle="modal" data-target="#exampleModal"alt="">
+            <img src="./images/icons/login1.jpg" alt="" width="38px" height="38px" style="opacity: 0.60;">
+            <img src="./images/icons/header-icon-2.png" alt="">
+            <img src="./images/icons/header-icon-3.png" alt="">
+
+        </div>
+    </nav>
+    <!-- 轮播图 -->
+    <div id="carouselExampleInterval" class="carousel slide lb" data-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active  " data-interval="10000">
+                <div class="carousel-caption d-none d-md-block lb-word" style="top: 10%;">
+                    <span class="lb-small">B E S T S E L L E R S</span>
+                    <p class="lb-big"><b>SOFA</b> COLLECTION</p>
+                </div>
+                <img src="./images/hp-1-slide-bg-1.jpg" class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img src="./images/hp-1-slide-bg-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block lb-word" style="top: 10%;">
+                    <span class="lb-small">B E S T S E L L E R S</span>
+                    <p class="lb-big"><b>SOFA</b> COLLECTION</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/hp-1-slide-bg-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block lb-word" style="top: 10%;">
+                    <span class="lb-small">B E S T S E L L E R S</span>
+                    <p class="lb-big"><b>SOFA</b> COLLECTION</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container-center">
+        <div class="center-left">
+            <div class="cl-l">
+                <div class="cl-l-zd">
+                    <img src="./images/hp-1-categories-1.jpg" alt="" width="360px" height="388px">
+                    <a href="">吊灯</a>
+                </div>
+            </div>
+        </div>
+        <div class="center-c">
+            <div class="cl-c">
+                <div class="cl-l-zd">
+                    <img src="./images/hp-1-categories-2.jpg" alt="" width="360px" height="470px">
+                    <a href="">装饰</a>
+                </div>
+            </div>
+        </div>
+        <div class="center-right">
+            <div class="cl-r">
+                <div class="cl-l-zd">
+                    <img src="./images/hp-1-categories-3.jpg" alt="" width="360px" height="388px">
+                    <a href="">橱柜</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 商品列表 -->
+    <div class="product-list">
+        <div class="kword-title">
+            <h2>热 门 单 品</h2>
+            <div class="line"></div>
+        </div>
+        <div class="sale-list">
+            <div class="sale-good">
+                <div class=" good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onsale">SALE</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-11.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-1.jpg" alt="" width="248px" height="348px">
+                        </li>
+                    </ul>
+                    <div class="tag-bottom">
+                        <div class="tag-kword">
+                            <p class="tag-word">木质边几</p>
+                            <span class="price">￥65</span>
+                        </div>
+                        <div class="tag-img">
+                            <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px" height="38px">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="sale-good">
+                <div class="good-box">
+                    <div class=" good-box">
+                        <img src="./images/hp-1-featured-2.jpg" alt="" width="248px" height="348px">
+                      
+                        <div class="tag-sale">
+                            <a href="#" class="onnull">null</a>
+                            <span class=" icon icon-star-empty"></span>
+                        </div>
+
+                        <div class="tag-bottom">
+                            <div class="tag-kword">
+                                <p class="tag-word">垂坠吊灯</p>
+                                <span class="price">￥45</span>
+                            </div>
+                            <div class="tag-img">
+                                <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px"
+                                    height="38px">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sale-good">
+                <div class=" good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnew">NEW</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-3.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-33.jpg" alt="" width="248px" height="348px">
+                        </li>
+                    </ul>
+                    <div class="tag-bottom">
+                        <div class="tag-kword">
+                            <p class="tag-word">梦幻香薰</p>
+                            <span class="price">￥18</span>
+                        </div>
+                        <div class="tag-img">
+                            <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px" height="38px">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="sale-good">
+                <div class=" good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnull">null</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-4.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-44.jpg" alt="" width="248px" height="348px">
+                        </li>
+
+                        <div class="tag-bottom">
+                            <div class="tag-kword">
+                                <p class="tag-word">童趣象形椅</p>
+                                <span class="price">￥56</span>
+                            </div>
+                            <div class="tag-img">
+                                <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px"
+                                    height="38px">
+                            </div>
+                        </div>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="sale-good">
+                <div class="good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnull">null</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-5.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-55.jpg" alt="" width="248px" height="348px">
+                        </li>
+
+                        <div class="tag-bottom">
+                            <div class="tag-kword">
+                                <p class="tag-word">绿植照明灯</p>
+                                <span class="price">￥41</span>
+                            </div>
+                            <div class="tag-img">
+                                <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px"
+                                    height="38px">
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sale-list">
+            <div class="sale-good">
+                <div class="good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnull">null</a>
+                        <span class=" icon icon-star-empty"></span> 
+                    </div>
+                 
+                        <img src="./images/hp-1-featured-6.jpg" alt="" width="248px" height="328px">
+
+                        <div class="tag-bottom">
+                            <div class="tag-kword">
+                                <p class="tag-word">艺术收纳袋</p>
+                                <span class="price">￥35</span>
+                            </div>
+                            <div class="tag-img">
+                                <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px"
+                                    height="38px">
+                            </div>
+                        </div>
+
+            
+                </div>
+            </div>
+            <div class="sale-good">
+                <div class=" good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnew">NEW</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-7.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-77.jpg" alt="" width="248px" height="348px">
+                        </li>
+                    </ul>
+
+                    <div class="tag-bottom">
+                        <div class="tag-kword">
+                            <p class="tag-word">国风毛毯</p>
+                            <span class="price">￥72</span>
+                        </div>
+                        <div class="tag-img">
+                            <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px" height="38px">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="sale-good">
+                <div class="good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnull">null</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <img src="./images/hp-1-featured-10.jpg" alt="" width="248px" height="328px">
+
+
+                    <div class="tag-bottom">
+                        <div class="tag-kword">
+                            <p class="tag-word">星星抱枕套</p>
+                            <span class="price">￥12</span>
+                        </div>
+                        <div class="tag-img">
+                            <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px" height="38px">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="sale-good">
+                <div class=" good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onnew">NEW</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-9.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-99.jpg" alt="" width="248px" height="348px">
+                        </li>
+                    </ul>
+
+                    <div class="tag-bottom">
+                        <div class="tag-kword">
+                            <p class="tag-word">可爱小矮凳</p>
+                            <span class="price">￥46</span>
+                        </div>
+                        <div class="tag-img">
+                            <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px" height="38px">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="sale-good">
+                <div class=" good-box">
+                    <div class="tag-sale">
+                        <a href="#" class="onsale">SALE</a>
+                        <span class=" icon icon-star-empty"></span>
+                    </div>
+                    <ul class="good-list">
+                        <li>
+                            <img src="./images/hp-1-featured-8.jpg" alt="" width="248px" height="348px">
+                        </li>
+                        <li>
+                            <img src="./images/hp-1-featured-88.jpg" alt="" width="248px" height="348px">
+                        </li>
+                    </ul>
+
+                    <div class="tag-bottom">
+                        <div class="tag-kword">
+                            <p class="tag-word">简约老人椅</p>
+                            <span class="price">￥80</span>
+                        </div>
+                        <div class="tag-img">
+                            <img src="./images/icons/shopping-cart-black-icon.png" alt="" width="38px" height="38px">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="view-btn">
+            <button type="button" class="btn btn-outline-dark">查看更多 ->
+            </button>
+        </div>
+    </div>
+    <div class="showImg">
+        <div class="show-left">
+                <img class="img1" src="./images/hp-1-banner-1.jpg" alt="" width="340x" height="530px">
+                <div class="show-box">
+                    <a href="" class="show-sale">热 销 折 扣</a>
+                    <span class="show-discount">50%特价</span>
+                    <a href="" class="show-new"> 店铺上新 -></a>
+                </div>                                                      
+           
+        </div>
+        <div class="show-right">
+            <img src="./images/hp-1-banner-2.jpg" alt="" width="700px" height="530px">
+            <div class="show-right-word">
+                    <p class="show-hot1">全场高达30种商品促销 </p>
+                    <br>
+                    <p class="show-hot1">&nbsp;&nbsp;&nbsp;爆款低至5折秒杀！</p>
+                </div>
+            
+        </div>
+    </div>
+    <!-- 轮播 -->
+    <div>
+
+    </div>
+    <!-- 下方展示图 -->
+    <div class="index">
+        <h2 class="index-word"> 搭 配 指 南 </h2>
+        <p class="index-sm">@Novas.InteriorDesign</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm ">
+                <div class="indexImg">
+                    <div class="index-zhe"></div>  
+                    <img src="./images/hp-1-ig-1.jpg"" alt="" width=" 218px" height="217px">
+                </div>
+            </div>
+            <div class="col-sm ">
+                <div class="indexImg">
+                    <div class="index-zhe"> </div>
+                        <img src="./images/hp-1-ig-2.jpg"" alt="" width=" 218px" height="217px">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="indexImg">
+                    <div class="index-zhe"> </div>
+                        <img src="./images/hp-1-ig-3.jpg"" alt="" width=" 218px" height="217px">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="indexImg">
+                    <div class="index-zhe"> </div>
+                        <img src="./images/hp-1-ig-4.jpg"" alt="" width=" 218px" height="217px">       
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="indexImg">
+                    <div class="index-zhe"></div>
+                    <img src="./images/hp-1-ig-5.jpg"" alt="" width=" 218px" height="217px">
+                </div>
+            </div>
+        </div>
+    </div>
+  <div class="footer">
+      <div class="footer-container ">   
+          <div class="footer-part">
+              <div class="part-first">
+                  <img src="./images/icons/logo-white.png" alt="" width="100px" height="24px" >
+                  <p style="color: #fff; ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <span class="footer-icon icon-facebook"></span>
+                <span class="footer-icon icon-twitter"></span>
+                <span class="footer-icon icon-tumblr"></span>
+                <span class="footer-icon icon-camera"></span>
+                </div>
+          </div>
+          <div class="footer-part">
+            <div class="part-first">
+                <h3 class="footer-c">Contact</h3>
+                <br>
+                <p class="footer-content"><span class="icon-location2">&nbsp;华兴大街133号</span></p>
+             
+                 <p class="footer-content"><span class="icon-phone"> &nbsp;+(156)1800-366-6666</span></p>
+               
+                <p class="footer-content"><span class=" icon-mail">&nbsp;邮箱地址</span></p> 
+               
+                <p class="footer-content"><span class="icon-dribbble">&nbsp;www.novas.com</span></p> 
+              </div>
+          </div>
+          <div class="footer-part">   
+        <div class="part-first">
+            <h3 class="footer-c">Profile</h3>
+                 <br>
+                <p class="footer-content"><span class="icon-user">&nbsp;我的账户</span></p>
+             
+                 <p class="footer-content"><span class="icon-cart"> &nbsp;商品结算</span></p>
+               
+                <p class="footer-content"><span class=" icon-eye">&nbsp;订单跟踪</span></p> 
+               
+                <p class="footer-content"><span class="icon-bubbles4">&nbsp;帮助&反馈</span></p> 
+          </div>
+        </div>
+          <div class="footer-part footer-last">  
+               <div class="part-first">
+                 <h3 class="footer-c">Newsletter</h3>
+                 <br>
+                 <p class="footer-content"> 订阅最新活动信息</p>
+                 <div class="footer-inp">
+                     <input type="text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Your e-mail...">
+                      <span class="icon-compass"></span>
+                </div>
+                 <br>
+                 <p class="footer-content">@ 2019 Novas. Get The Template</p>
+          </div>
+        </div>
+  </div>
+ </div>
+
+
+
+    <script src="./js/jquery-1.11.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
